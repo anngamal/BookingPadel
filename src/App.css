@@ -1,38 +1,348 @@
 .App {
-  text-align: center;
+text-align: center;
+
+}
+body{
+  background-color: #e9e9eb ;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+#img1,#img4,#img3{
+  width: 100w;
+  height: auto;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#img1 img,#img2 img,#img3 img{
+  width: 100%;
+  height: auto;
+
+}
+#slider-wrapper {
+  background-image: url("https://media.discordapp.net/attachments/1143345093839945760/1153413079946776626/IMG_8552.jpg?width=1897&height=1215");
+  /* Set a specific height */
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* h2 {
+  margin: 0;
+  font-size: 200px;
+} */
+
+/* #navbar{
+  background-color:#d5dcea;
+  
+  
+} */
+#mainVid{
+  width: 98vw;
+  margin: 0 auto;
+}
+#mainVid img{
+  width: 100%;
+}
+
+
+.horizontal-menu {
+  list-style-type: none;
+  padding: 0;
   display: flex;
-  flex-direction: column;
+}
+
+#navbar{
+    /* margin-left: 999px; */
+  display: flex;
+  font-family:Arial, Helvetica, sans-serif;
+  /* margin-bottom: 20px;
+  padding:10px; */
+  width: 100vw;
+  padding: 20px 10px;
+  justify-content: flex-end;
+  gap: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+#navbar a:visited {
+  color:rgb(231, 231, 231);
+  justify-content: space-between;
+  margin-right: "10px";
+padding:"0";
+margin:"0";
+display:flex
+  
+}
+
+#mainNavBar{
+  display:flex
+}
+#navLogo{
+  width:100px; 
+  background-color: rgba(0, 0, 0, 0.8);;
+}
+
+
+.navSpan{
+  position: relative;
+}
+
+#subscribeBtn {
+  padding:5px 20px;
+  background-color: white;
+  border: none;
+}
+/* inputs for subscription in the footer  */
+#input2, #input1 {
+  background-color: #ccced1 ;
+  color:white;
+  font-size: 16px;
+  padding: 8px 1px; 
+  /* //elly by5ly shkl el zrayer akbr w ahla  */
+  border: 0.1 px; 
+}
+
+
+/* 
+ */
+table {
+  width: 80%;
+  margin: 0 auto 0 auto;
+  text-align:left;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 1.5em;
+
+
+}
+
+td img {
+  width: 50px;
+}
+#p1,#p2,#p3,#p4{
+  color:rgb(16, 15, 15)
+}
+
+
+#footerTitles{
+  color:rgb(58, 59, 59);
+}
+
+#footerContent{
+  font-size: large;
+}
+#mapImage{
+  width:200px
+}
+
+
+
+#formInfo ,#divFormInfo{
+  /* background-color: #d1d2d4 ; */
+  /* padding: 8px 1px;  */
+  /* //elly by5ly shkl el zrayer akbr w ahla  */
+  display: block;
+  margin-bottom: 30px;
+  
+
+}
+#name, #apptTime , #email , #phoneNum ,#date , #name2 , #apptTime2,#email2, #phoneNum2 {
+  display: block;
+  padding: 8px 1px; 
+  margin: 10 auto;
+  width:300px;
+  border: none;
+  border-bottom: 2px solid #4CAF50;
+}
+  /* display: block;
+    padding: 10px 10px; 
+  margin-bottom: 10px;
+  width: 300; 
+} */
+
+
+#ScheduleApp , #manageDiv , #appointmentDetails {
+  /* border: 2px solid #1a1a1a; */
+   /* Border color and thickness */
+  padding: 30px; /* Add some padding inside the box */
+  width: 600px; /* Set the desired width of the box */
+  height: 500px;
+  margin: 10 auto; /* Center the box on the page */
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+}
+
+#submitBtn , #editBtn {
+  background-color: #4CAF50; /* Green */
+  border: none;
   color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
-.App-link {
-  color: #61dafb;
+
+#h1ScheduleApp, #appointmentDetails{
+  color:rgb(16, 15, 15);
+  
+}
+#manageAppointmentImgDiv{
+  display: flex;
+}
+#scheduleimg{
+  width: 900px;
+  padding:0;
+  margin: 30px;
+ bottom: 0;
+}
+#manageApp{
+  border: 2px solid #0e0e0e; /* Border color and thickness */
+  padding: 30px; /* Add some padding inside the box */
+  width: 600px; /* Set the desired width of the box */
+  height: 500px;
+  margin: 10 auto; /* Center the box on the page */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+  
+ 
+}
+#name2, #dropDown2 , #email2 , #phoneNum2 ,#date2{
+  display: block;
+    padding: 8px 1px; 
+    margin: 10 auto; /* Center horizontally */
+    margin-bottom: 10px;
+    
+}
+/* #manageForm, #manageDiv{
+  background-color: #44464a ;
+  display: block;
+  margin-bottom: 10px;
+} */
+
+table {
+  border-collapse: collapse;
+}
+td {
+  padding: 10px;
+  text-align: left;
+ 
+}
+#adv1, #adv2, #adv3 {
+  width: 100px;
+  height:120px;
+  margin-left: 20px;
+  display: flex;
+ 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#scheduleAppAndAdv , #manageAppAndAdv{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: row-reverse;
 }
+#manageApph2, #manageApph4{
+  color:rgb(0, 0, 0)
+}
+#scheduleImg{
+  /* width: 50%;  */
+  /* Set the width of the image to 50% */
+  /* float: left;  */
+  /* Float the image to the left */
+  height: 700px;;
+width: 800px;
+ 
+  /* padding: 0%; */
+}
+
+
+/* 
+Contact Us Section  */
+#contactUsSection{
+  background-image: url(https://img.freepik.com/premium-photo/tennis-ball-is-court-dark_796128-5628.jpg);
+  padding: 0 100px;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+#contactUsInfo{
+  border: 2px solid #efefef; /* Border color and thickness */
+ 
+  width: 300px; /* Set the desired width of the box */
+  height: 400px;
+  /* margin-left: 1100; */
+   /* Center the box on the page */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  /* padding: 1rem; */
+  color:white
+}
+
+/* contact Us form */
+#nameContact, #emailContact , #msgContact{
+  display: block;
+  padding: 8px 1px; 
+  margin: 10 auto;
+  width:300px;
+  border: none;
+  border-bottom: 2px solid #4CAF50;
+  
+}
+#formInfo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.8);
+  width:500px;
+ padding:5px;
+ height: 600px;
+
+}
+#h2Contactus{
+  color:azure
+}
+#ContactUsBtn{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+/* #contactUsForm{
+
+}
+#contactUsSection{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+
+} */
