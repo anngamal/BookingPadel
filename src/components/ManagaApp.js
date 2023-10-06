@@ -27,9 +27,9 @@ export default function ManagaApp({setInfo, setCurrentUser, currentUser , info})
               })}
            
             </div>
-            <div id="manageAppointmentImgDiv">
+            {/* <div id="manageAppointmentImgDiv"> */}
              {/* <img id="scheduleimg" src="https://padel.wsbsport.com/wp-content/uploads/2020/05/LOGO-PADEL.png"/> */}
-             </div>
+             {/* </div> */}
         </div>
     </div>
     
