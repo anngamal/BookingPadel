@@ -10,4 +10,10 @@ This website is for a client who just opened a Padel place and want clients to b
 The owner now can easily keep track of his clients info and appointments.I used different techniques to make it more fun like slider and ads. The client 
 should also be able to check their info and the appointment details after submitting.
 
+## Here are some tips to navigate the website
+
+1- Run npm install && npm run server inside of the terminal
+
+2- Open a new terminal and add "npm start"
+
 
