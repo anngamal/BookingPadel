@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Booking Appointments website (Padel)
+
 ![image](./public/padel.gif)
 
 ## Available Scripts
